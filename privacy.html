@@ -3,66 +3,83 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — Retro Labs Design</title>
+<title>Privacy Policy — SkipIt</title>
 <style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    max-width: 720px;
-    margin: 40px auto;
-    padding: 20px;
-    line-height: 1.6;
-    color: #222;
-    background: #fafafa;
-  }
-  h1 { color: #000; border-bottom: 2px solid #333; padding-bottom: 10px; }
-  h2 { color: #333; margin-top: 30px; }
-  .updated { color: #666; font-size: 14px; margin-bottom: 30px; }
-  a { color: #0066cc; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.6;
+  color: #222;
+  background: #fafafa;
+}
+h1 { color: #000; border-bottom: 2px solid #333; padding-bottom: 10px; }
+h2 { color: #333; margin-top: 30px; }
+.updated { color: #666; font-size: 14px; margin-bottom: 30px; }
+a { color: #0066cc; }
 </style>
 </head>
 <body>
-
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: April 2026</p>
+<p class="updated">Last updated: May 2026</p>
 
-<p>This privacy policy applies to all apps published by <strong>Retro Labs Design</strong>, including but not limited to <strong>Starfield '84</strong>. It explains what data is collected, how it is used, and your rights.</p>
+<p>This privacy policy applies to <strong>SkipIt</strong>, an Android app published by <strong>Retro Labs Design</strong>. SkipIt helps you reduce impulsive food-delivery ordering by showing a brief pause screen when you open the delivery apps you have chosen. This policy explains what data SkipIt handles, how it is used, and your rights.</p>
 
-<h2>Data We Collect</h2>
-<p>Our apps do <strong>not</strong> collect, store, or transmit any personal information about you. Our apps do <strong>not</strong> require an account, sign-in, or any personal details.</p>
-<p>The apps store your wallpaper preferences (selected mode, color, brightness, etc.) locally on your device only. This data never leaves your phone.</p>
+<h2>Our Core Privacy Principle</h2>
+<p>SkipIt is built to stay on your device. It does <strong>not</strong> require an account or sign-in, does <strong>not</strong> collect personal information, and does <strong>not</strong> transmit your data to us or to any server. Everything SkipIt records is stored locally on your phone and never leaves it.</p>
 
-<h2>Advertisements</h2>
-<p>Our apps may display advertisements provided by Google AdMob. AdMob may collect anonymous device information for ad personalisation in accordance with Google's privacy policies. This data is processed by Google, not by Retro Labs Design.</p>
-<p>You can opt out of personalised advertising in your device settings, or remove ads entirely via the in-app upgrade.</p>
-<p>For details on AdMob's data practices, see: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<h2>Accessibility Service</h2>
+<p>SkipIt uses Android's Accessibility Service for one specific purpose: to detect when you open an app that you have chosen for SkipIt to watch (such as a food-delivery app), so it can display its pause screen.</p>
+<p>To be completely clear about what this does and does not do:</p>
+<ul>
+<li>SkipIt only checks <strong>which app has come to the foreground</strong> (the app's package name). That is the only information it reads from the Accessibility Service.</li>
+<li>SkipIt does <strong>not</strong> read the content of any screen, does <strong>not</strong> read text you type, does <strong>not</strong> read messages, passwords, or any other on-screen information, and does <strong>not</strong> record your activity within any app.</li>
+<li>The detection happens entirely on your device. No information about which apps you open is ever sent anywhere.</li>
+</ul>
+<p>You can turn the Accessibility Service off at any time in your device's Settings, and you can uninstall SkipIt to remove it completely.</p>
+
+<h2>Data SkipIt Stores On Your Device</h2>
+<p>To do its job, SkipIt saves the following information locally on your phone only:</p>
+<ul>
+<li>The apps you choose for SkipIt to watch</li>
+<li>The pause/delay settings you choose for each app</li>
+<li>Your responses within the app, such as when you choose to wait or to continue</li>
+<li>A history of your skips and orders, used to show your progress inside the app</li>
+<li>Any baseline figure you enter during setup</li>
+</ul>
+<p>This information is stored only on your device, is used only to make the app work and to show you your own progress, and is never transmitted to us or to any third party. Uninstalling SkipIt removes all of this data from your device.</p>
+
+<h2>Permissions SkipIt Uses</h2>
+<ul>
+<li><strong>Accessibility Service</strong> — to detect when you open an app you have chosen to watch, as described above.</li>
+<li><strong>Display over other apps</strong> — to show the pause screen on top of the app you have opened.</li>
+<li><strong>Run a foreground service</strong> — to keep the pause feature working reliably while you use your phone. Android requires a small ongoing notification for this; it does not collect any data.</li>
+<li><strong>Query installed apps</strong> — to show you a list of the apps on your phone so you can choose which ones SkipIt should watch. This list is read on your device and is not transmitted anywhere.</li>
+<li><strong>Post notifications</strong> — to show the foreground-service notification and, in future versions, optional check-in reminders.</li>
+</ul>
+<p>SkipIt requests no other permissions.</p>
+
+<h2>Advertising</h2>
+<p>SkipIt does <strong>not</strong> contain advertisements and does not use any advertising or ad-tracking services.</p>
+
+<h2>Analytics</h2>
+<p>SkipIt does <strong>not</strong> use any third-party analytics services. We do not track your usage of the app.</p>
 
 <h2>In-App Purchases</h2>
-<p>If you purchase "Remove Ads" or any other upgrade, payment is processed by Google Play Billing. Retro Labs Design never sees your payment details.</p>
-
-<h2>Permissions</h2>
-<p>Our apps may request the following Android permissions:</p>
-<ul>
-  <li><strong>Internet</strong> — to load advertisements (only if ads are not removed)</li>
-  <li><strong>Sensors</strong> — for optional gyroscope parallax (only if you enable it)</li>
-</ul>
-<p>No other permissions are requested.</p>
+<p>If SkipIt offers paid features in future, payment will be processed by Google Play Billing. Retro Labs Design will never see your payment details.</p>
 
 <h2>Third Parties</h2>
-<p>Our apps use these third-party services:</p>
-<ul>
-  <li>Google AdMob — for advertisements</li>
-  <li>Google Play Billing — for in-app purchases</li>
-</ul>
-<p>We do not share any data with any other third parties.</p>
+<p>SkipIt does not share any data with any third parties. The app does not send your information to any external service.</p>
 
 <h2>Children</h2>
-<p>Our apps do not knowingly collect data from children under 13. The apps are rated for all ages and contain no user-generated content.</p>
+<p>SkipIt is not directed at children under 13 and does not knowingly collect any data from them. Because SkipIt does not collect personal data from anyone, there is no personal information of children to collect.</p>
 
 <h2>Your Rights</h2>
-<p>Because we do not collect any personal data, there is nothing to access, modify, or delete. Uninstalling the app removes all locally stored preferences from your device.</p>
+<p>Because SkipIt does not collect or transmit any personal data, there is nothing held by us to access, modify, or delete. All information SkipIt stores lives on your device. Uninstalling the app permanently removes that information from your phone.</p>
 
 <h2>Changes to This Policy</h2>
-<p>If this privacy policy changes, the new version will appear here. The "Last updated" date will reflect any changes.</p>
+<p>If this privacy policy changes — for example, if a future version of SkipIt adds features that handle data differently — the new version will appear here, and the "Last updated" date will reflect the change.</p>
 
 <h2>Contact</h2>
 <p>For questions about this privacy policy, contact: <a href="mailto:retrolabsdigital@gmail.com">retrolabsdigital@gmail.com</a></p>
